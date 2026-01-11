@@ -1,0 +1,47 @@
+//Reverse a String
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string text = "hello";
+        string reversed = "";
+
+        for (int i = text.Length - 1; i >= 0; i--)
+        {
+            reversed += text[i];
+        }
+
+        Console.WriteLine(reversed);
+    }
+}
+
+
+//Palindrome Check
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string text = "madam";
+        bool isPalindrome = true;
+
+        int start = 0;
+        int end = text.Length - 1;
+
+        while (start < end)
+        {
+            if (text[start] != text[end])
+            {
+                isPalindrome = false;
+                break;
+            }
+            start++;
+            end--;
+        }
+
+        Console.WriteLine(isPalindrome);
+    }
+}
