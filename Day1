@@ -14,17 +14,10 @@ class Program
         }
 
         Console.WriteLine(reversed);
-    }
-}
 
 
 //Palindrome Check
-using System;
 
-class Program
-{
-    static void Main()
-    {
         string text = "madam";
         bool isPalindrome = true;
 
@@ -43,5 +36,41 @@ class Program
         }
 
         Console.WriteLine(isPalindrome);
+
+//FizzBuzz
+
+        int n = 20;
+
+        for (int i = 1; i <= n; i++)
+        {
+            if (i % 3 == 0 && i % 5 == 0)
+                Console.WriteLine("FizzBuzz");
+            else if (i % 3 == 0)
+                Console.WriteLine("Fizz");
+            else if (i % 5 == 0)
+                Console.WriteLine("Buzz");
+            else
+                Console.WriteLine(i);
+        }
+
+
+//Find Maximum / Minimum
+
+        int[] arr = { 4, 7, 1, 9, 2 };
+
+        int max = arr[0];
+        int min = arr[0];
+
+        for (int i = 1; i < arr.Length; i++)
+        {
+            if (arr[i] > max)
+                max = arr[i];
+
+            if (arr[i] < min)
+                min = arr[i];
+        }
+
+        Console.WriteLine("Max: " + max);
+        Console.WriteLine("Min: " + min);
     }
 }
