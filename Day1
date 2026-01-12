@@ -72,5 +72,17 @@ class Program
 
         Console.WriteLine("Max: " + max);
         Console.WriteLine("Min: " + min);
+  
+//Sum of Digits
+ int number = 1234;
+        int sum = 0;
+
+        while (number > 0)
+        {
+            sum += number % 10;
+            number /= 10;
+        }
+
+        Console.WriteLine(sum);
     }
 }
