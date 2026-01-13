@@ -84,5 +84,39 @@ class Program
         }
 
         Console.WriteLine(sum);
+
+
+
+
+
+        //Factorial
+         int n = 5;
+        int fact = 1;
+
+        for (int i = 1; i <= n; i++)
+        {
+            fact *= i;
+        }
+
+        Console.WriteLine(fact);
+
+
+        //Count Vowels
+
+                string text = "programming";
+        int count = 0;
+
+        for (int i = 0; i < text.Length; i++)
+        {
+            char c = text[i];
+
+            if (c == 'a' || c == 'e' || c == 'i' || 
+                c == 'o' || c == 'u')
+            {
+                count++;
+            }
+        }
+
+        Console.WriteLine(count);
     }
 }
