@@ -1,0 +1,5 @@
+/workspaces/Problem_Solving1/MyApp/obj/Debug/net10.0/MyApp.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Problem_Solving1/MyApp/obj/Debug/net10.0/MyApp.AssemblyInfoInputs.cache
+/workspaces/Problem_Solving1/MyApp/obj/Debug/net10.0/MyApp.AssemblyInfo.cs
+/workspaces/Problem_Solving1/MyApp/obj/Debug/net10.0/MyApp.csproj.CoreCompileInputs.cache
+/workspaces/Problem_Solving1/MyApp/obj/Debug/net10.0/MyApp.sourcelink.json
