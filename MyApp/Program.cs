@@ -12,7 +12,7 @@ Examples(Operator, value1, value2) --> output
 
 using System;
 
-//   
+
 double result = MyOps.basicOp('+', 42, 7);
 double r = MyOps.basicOp('-', 42, 7);
 double re = MyOps.basicOp('*', 42, 7);
