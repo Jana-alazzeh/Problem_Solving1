@@ -16,6 +16,8 @@ double r = MyOps.basicOp('-', 42, 7);
 double re = MyOps.basicOp('*', 42, 7);
 double res = MyOps.basicOp('/', 42, 7);
 
+
+
 Console.WriteLine($"The result is: {result}");
 
 // تغيير اسم الكلاس لتجنب الخطأ
