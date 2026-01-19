@@ -8,6 +8,8 @@ Examples(Operator, value1, value2) --> output
 ('-', 15, 18) --> -3
 ('*', 5, 5) --> 25
 ('/', 49, 7) --> 7 */
+
+
 using System;
 
 // استدعاء الدالة مباشرة
