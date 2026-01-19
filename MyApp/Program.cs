@@ -20,6 +20,7 @@ Console.WriteLine($"The result is: {result}");
 
 // تغيير اسم الكلاس لتجنب الخطأ
 public static class MyOps 
+    
 {
     public static double basicOp(char op, double val1, double val2)
     {
