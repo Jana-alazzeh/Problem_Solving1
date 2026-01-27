@@ -16,7 +16,7 @@ class Program
         Console.WriteLine(reversed);
 
 
-//Palindrome Check
+//Palindrome 
 
         string text = "madam";
         bool isPalindrome = true;
