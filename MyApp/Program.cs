@@ -21,7 +21,7 @@ double res = MyOps.basicOp('/', 42, 7);
 
 Console.WriteLine($"The result is: {result}");
 
-// تغيير اسم الكلاس لتجنب الخطأ
+
 public static class MyOps 
     
 {
@@ -36,9 +36,6 @@ public static class MyOps
             default: return 0;
         }
     }
-
-
-    
 
 
 
