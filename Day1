@@ -101,8 +101,7 @@ class Program
         Console.WriteLine(fact);
 
 
-        //Count Vowels
-
+    
                 string text = "programming";
         int count = 0;
 
