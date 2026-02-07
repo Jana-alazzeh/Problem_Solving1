@@ -78,6 +78,9 @@ class Program
         Console.WriteLine("Min: " + min);
   
 //Sum of Digits
+
+
+
  int number = 1234;
         int sum = 0;
 
