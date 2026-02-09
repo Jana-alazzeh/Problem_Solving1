@@ -18,6 +18,12 @@ class Program
 
 //Palindrome 
 
+
+
+
+
+
+
         string text = "madam";
         bool isPalindrome = true;
 
