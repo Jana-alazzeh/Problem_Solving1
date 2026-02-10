@@ -15,13 +15,7 @@ class Program
 
         Console.WriteLine(reversed);
 
-
-
-
-
-
-
-
+//
 
 
         string text = "madam";
