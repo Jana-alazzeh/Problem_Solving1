@@ -15,8 +15,10 @@ class Program
 
         Console.WriteLine(reversed);
 
-//
 
+
+
+////////////////////////////////////
 
         string text = "madam";
         bool isPalindrome = true;
