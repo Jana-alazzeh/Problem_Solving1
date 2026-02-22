@@ -20,6 +20,9 @@ class Program
 
 
 
+
+
+
         string text = "madam";
         bool isPalindrome = true;
 
